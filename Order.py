@@ -2,7 +2,7 @@ import requests
 import Data
 import Configuration
 
-#Кричигина В. 7й Поток. Инженер по тестированию плюс. Финальный проект
+#Кричигина В. 7й Поток. Инженер по тестированию плюс. Финальный проект Яндекс.Самокат
 #Creating new Order for track
 def post_new_order(body):
     return requests.post(Configuration.URL_SERVICE + Configuration.CREATE_ORDER,
